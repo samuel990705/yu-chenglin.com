@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Homepage</title>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Share Tech' rel='stylesheet'> 
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body id="font">
+        
+    <h1>Samuel's PC Build</h1>
+    <h4><span id="date"></span></h4>
+        
+    <script>
+        var dt = new Date();
+        document.getElementById("date").innerHTML = dt.toLocaleDateString();
+    </script>
+        
+    <div class="grid-container">
+        <div class="grid-item"><h2><a href="index.html">Homepage</a></h2></div>
+        <div class="grid-item"><h2><a href="part_list.html">Part List</a></h2></div>
+        <div class="grid-item"><h2><a href="cryptocurrency.html">Cryptocurrency GPU Inflation</a></h2></div>
+        <div class="grid-item"><h2><a href="future_upgrades.html">Future Upgrades</a></h2></div>
+        <div class="grid-item"><h2><a href="build_your_own.html">Build Your Own</a></h2></div>
+        <div class="grid-item"><h2><a href="contact_me.html">Contact Me</a></h2></div>
+    </div>
+    
+    <h2>Homepage</h2>
+        
+    <div class="grid2-container">
+        
+        <div class="float-center">
+            <img srcset="homepage_images/image1-2.jpg 480w,
+                         homepage_images/image1.jpg 960w"
+                 sizes="(max-width: 480px) 250px,
+                        250px"
+                 src="homepage_images/image1.jpg" alt="image1">
+        </div>
+        
+        <div class="float-center">
+            <img srcset="homepage_images/image2-2.jpg 480w,
+                         homepage_images/image2.jpg 960w"
+                 sizes="(max-width: 480px) 250px,
+                        250px"
+                 src="homepage_images/image2.jpg" alt="image2">
+        </div>
+        
+        <div class="float-center">
+            <h3>About me</h3>
+            <p class="textarea">Hello, my name is Samuel. I am a freshman pursuing a dregree in Computer Science. I was born and raised in Taiwan, but went to a boarding school in Singapore for high school.</p>
+        </div>
+        
+        <div class="float-center">
+            <img srcset="homepage_images/image3-2.jpg 480w,
+                         homepage_images/image3.jpg 960w"
+                 sizes="(max-width: 480px) 250px,
+                        250px"
+                 src="homepage_images/image3.jpg" alt="image3">
+        </div>
+        
+        <div class="float-center">
+            <img srcset="homepage_images/image4-2.jpg 480w,
+                         homepage_images/image4.jpg 960w"
+                 sizes="(max-width: 480px) 250px,
+                        250px"
+                 src="homepage_images/image4.jpg" alt="image4">
+        </div>
+        
+        <div class="float-center">
+            <h3>Why I built this PC</h3>
+            <p class="textarea">I built this PC because I am a hardcore PC gamer and need the best gear available in the market in order to reach my maximum gaming potential.</p>
+        </div>
+    </div>
+    </body>
+
+</html>
